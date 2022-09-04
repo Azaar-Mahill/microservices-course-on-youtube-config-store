@@ -1,0 +1,12 @@
+spring:
+  datasources:
+    url: jdbc:mysql://localhost:3306/sample?createDatabaseIfNotExist=true
+    username: root
+    password: SQL123
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      naming:
+        physical-stratergy: org.hibernate.boot.model.naming.PhysicalNamingStratergyStandardImpl
+
+
